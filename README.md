@@ -20,6 +20,7 @@ Para projetar o circuito serão utilizados os seguintes materiais:
 - Vários Jumpers
 
 O código do programa será feito em C++ utilizando o Arduino IDE.
+
 Para o desenvolvimento do aplicativo serão utilizadas as tecnologias Node.JS e React Native.
 
 ### Como funciona
