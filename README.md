@@ -3,9 +3,9 @@
 ## Ata da Reunião para Decisões de Projeto (14/11/2018 - 15h50min)
 
 ### Ideia Geral
-A ideia geral do projeto é desenvolver um despertador utilizando a plataforma Arduino, que trabalhará em conjunto com um aplicativo desenovlvido utilizando React Native.
+A ideia geral do projeto é desenvolver um despertador utilizando a plataforma Arduino, que trabalhará em conjunto com um aplicativo desenvolvido utilizando React Native. 
 
-*Colocar o esquema desenhado aqui*
+![Imagem da Ideia](https://github.com/lucasvribeiro/Projeto-Despertador-Sistemas-Microcontrolados/blob/master/ata.jpg)
 
 ### Materiais e Métodos
 Para projetar o circuito serão utilizados os seguintes materiais:
