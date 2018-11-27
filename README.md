@@ -26,3 +26,5 @@ Para o desenvolvimento do aplicativo serão utilizadas as tecnologias Node.JS e 
 ### Como funciona
 Ao final do projeto, será possível estabelecer uma conexão via Bluetooth, entre o celular e o projeto, utilizando o aplicativo desenvolvido. Desta forma, ainda no aplicativo, será possível escolher um horário para o despertador. Ao fazê-lo, um sinal será enviado para o Módulo Bluetooth do projeto, indicando o horário selecionado. Este horário será salvo na EEPROM do Arduino e, quando o horário selecionado for igual ao horário atual indicado pelo Módulo RTC, o Módulo Buzzer  e o celular começarão a emitir sons de alarme.
 Além disso, uma operação randômica de soma ou multiplicação será exibida no Display LCD 16x2, e os alarmes ***só*** irão parar de soar quando o usuário inserir o resultado, no Display LCD, utilizando o Teclado Matricial.
+
+# [Divisão das Tarefas](https://github.com/lucasvribeiro/Projeto-Despertador-Sistemas-Microcontrolados/blob/master/Divisao-de-Tarefas.md)
