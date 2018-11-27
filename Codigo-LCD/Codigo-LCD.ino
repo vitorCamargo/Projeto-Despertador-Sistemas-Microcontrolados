@@ -17,7 +17,7 @@ void loop()
   //Posiciona o cursor na coluna 3, linha 0;
   lcd.setCursor(3, 0);
   //Envia o texto entre aspas para o LCD
-  lcd.print("DISCORDO");
+  lcd.print("FRANK  LEGAL");
   lcd.setCursor(1, 1);
   lcd.print("==============");
   delay(5000);
