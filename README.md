@@ -30,7 +30,7 @@ Além disso, uma operação randômica de soma ou multiplicação será exibida 
 ### Pré Requisitos (Rúbrica)
 Para a realização deste projeto, foram necessários cumprir os seguintes pré-requisitos:
 1. O projeto deve usar um display (7 segmentos, LCD texto, LCD gráfico), ***o qual é utilizado para mostrar mostrar a conta para que o despertador pare de tocar***;
-2. O projeto deve controlar pelo menos um LED, ***utilizado para mostrar se já existe algum valor armazendo na memória EEPROM (algum hora para despertar)***;
+2. O projeto deve controlar pelo menos um LED, ***utilizado para mostrar se já existe algum valor armazendo na memória EEPROM (algum horário para despertar)*** ;
 3. O projeto deve fazer beep com um buzer ou um autofalante, ***o projeto fica apitando pelo buzzer quando der a hora de despertar***;
 4. O projeto deve ter uma modalidade de entrada do tipo botão ou teclado, ***utilizamos a matriz de botões para que seja possível digitar o resultado da conta para desligar o despertador***;
 5. O projeto deve se comunicar com algum dispositivo (protocolos USART, SPI, e/ou
