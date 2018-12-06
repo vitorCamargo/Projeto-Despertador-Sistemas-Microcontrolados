@@ -4,7 +4,6 @@ boolean status1 = false;
  
  
 void setup() {
- 
   Serial.begin(9600);
   pinMode(led, OUTPUT);
 }
