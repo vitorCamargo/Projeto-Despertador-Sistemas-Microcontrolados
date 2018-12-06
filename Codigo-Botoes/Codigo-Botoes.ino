@@ -1,3 +1,4 @@
+#include <Key.h>
 #include <Keypad.h>
 
 const byte linhas = 4; //4 linhas
@@ -10,6 +11,7 @@ char matrizteclado[linhas][colunas] = {
   {'7', '8', '9', 'C'},
   {'*', '0', '#', 'D'}
 };
+
 byte pinoslinhas[linhas] = {9,8,7,6}; //pinos utilizados nas linhas
 byte pinoscolunas[colunas] = {5,4,3,2}; //pinos utilizados nas colunas
  
