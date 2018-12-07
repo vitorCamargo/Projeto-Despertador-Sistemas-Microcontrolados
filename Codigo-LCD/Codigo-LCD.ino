@@ -32,7 +32,7 @@ LiquidCrystal lcd(12, 11, 28, 29, 30, 31);
 void geraConta() {
     int opA = (int) random(1, 100);                       // Operando A recebe um número aleatório
     int opB = (int) random(1, 100);                       // Operando B recebe um número aleatório
-    int op = (int) random(1,3);                           // Operador recebe 0 ou 1
+    int op = (int) random(1,3);                           // Operador recebe 1 ou 2
     char strOp;
     if (op == 1) {                                        // Se op é 1, será uma multiplicação
         strOp = '*';
