@@ -6,9 +6,7 @@
 
 #define TAM_HORA 5
 
-boolean statusIntervalo = false;
-int addr = 0, frequencia;
-float seno;
+int addr = 0;
 
 unsigned long int intervalo = 0;
 
@@ -138,6 +136,7 @@ void setup () {
   pinMode(led, OUTPUT);
   pinMode(buzzer, OUTPUT);
   lcd.begin(16, 2);
+  randomSeed(analogRead(0));
 }
  
 void loop () {
