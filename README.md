@@ -1,43 +1,25 @@
-# Projeto Despertador
+# Alarm Clock
+👨🏽‍💻⏰ Assignment for 'Microcontrolled Systems' subject about a alarm clock in Arduino.
 
-## Ata da Reunião para Decisões de Projeto (14/11/2018 - 15h50min)
+## Main Idea
+The general idea is to develop an alarm clock using an Arduino platform.
 
-### Ideia Geral
-A ideia geral do projeto é desenvolver um despertador utilizando a plataforma Arduino, que trabalhará em conjunto com um aplicativo desenvolvido utilizando React Native. 
-
-![Imagem da Ideia](https://github.com/lucasvribeiro/Projeto-Despertador-Sistemas-Microcontrolados/blob/master/ata.png)
+![Image of Idea](https://github.com/vitorCamargo/alarm-clock/blob/master/idea.png)
 
 ### Materiais e Métodos
 Para projetar o circuito serão utilizados os seguintes materiais:
 - 1 Arduino Mega 2560
 - 1 LCD 16x2
-- 1 Módulo Buzzer
-- 1 Módulo Bluetooth HC-06
-- 1 Módulo RTC (Real Time Clock)
+- 1 Buzzer Module
+- 1 HC-06 Bluetooth Module
+- 1 RTC (Real Time Clock) Modulo
 - 1 LED 5mm
-- 1 Teclado Matricial
-- 3 Resistores
-- Vários Jumpers
+- 1 Matrix Keybord
+- 3 Resistors
+- Some Jumpers
 
-O código do programa será feito em C++ utilizando o Arduino IDE.
+The program code will be made in C ++ using Arduino IDE.
 
-Para o desenvolvimento do aplicativo serão utilizadas as tecnologias Node.JS e React Native.
-
-### Como funciona
-Ao final do projeto, será possível estabelecer uma conexão via Bluetooth, entre o celular e o projeto, utilizando o aplicativo desenvolvido. Desta forma, ainda no aplicativo, será possível escolher um horário para o despertador. Ao fazê-lo, um sinal será enviado para o Módulo Bluetooth do projeto, indicando o horário selecionado. Este horário será salvo na EEPROM do Arduino e, quando o horário selecionado for igual ao horário atual indicado pelo Módulo RTC, o Módulo Buzzer  e o celular começarão a emitir sons de alarme.
-Além disso, uma operação randômica de soma ou multiplicação será exibida no Display LCD 16x2, e os alarmes ***só*** irão parar de soar quando o usuário inserir o resultado, no Display LCD, utilizando o Teclado Matricial.
-
-### Pré Requisitos (Rúbrica)
-Para a realização deste projeto, foram necessários cumprir os seguintes pré-requisitos:
-1. O projeto deve usar um display (7 segmentos, LCD texto, LCD gráfico), ***o qual é utilizado para mostrar mostrar a conta para que o despertador pare de tocar***;
-2. O projeto deve controlar pelo menos um LED, ***utilizado para mostrar se já existe algum valor armazendo na memória EEPROM (algum horário para despertar)*** ;
-3. O projeto deve fazer beep com um buzer ou um autofalante, ***o projeto fica apitando pelo buzzer quando der a hora de despertar***;
-4. O projeto deve ter uma modalidade de entrada do tipo botão ou teclado, ***utilizamos a matriz de botões para que seja possível digitar o resultado da conta para desligar o despertador***;
-5. O projeto deve se comunicar com algum dispositivo (protocolos USART, SPI, e/ou
-I2C), ***será utilizado o módulo de tempo real, que utiliza o protocolo I2C***;
-6. O projeto deve logar alguma variável de maneira permanente (EEPROM, MMC
-Card), ***é armazedo na EEPROM o horário que o despertador deve ser ligado***;
-7. O projeto deve permitir entradas via porta serial (computador controlando o
-dispositivo), ***utilizamos o módulo de bluetooth para enviar para o dispositivo o horário a ser gravado na EEPROM e consequentemente, será o horário para despertar***.
-
-# [Divisão das Tarefas](https://github.com/lucasvribeiro/Projeto-Despertador-Sistemas-Microcontrolados/blob/master/Divisao-de-Tarefas.md)
+### How it works
+At the end of the project, it will be possible to establish a connection via Bluetooth, between the mobile phone and the project, using the developed application. This way, even in the app, it will be possible to choose a time for the alarm clock. In doing so, a signal will be sent to the project's Bluetooth Module indicating the selected time. This time will be saved in Arduino EEPROM, and when the selected time is equal to the current time indicated by the RTC Module, the Buzzer Module and the phone will start to sound alarm sounds.
+In addition, a random addition or multiplication operation will be displayed on the 16x2 LCD Display, and alarms will ***only*** stop sounding when the user enters the result on the LCD Display using the Dot Matrix.
