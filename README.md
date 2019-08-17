@@ -6,8 +6,8 @@ The general idea is to develop an alarm clock using an Arduino platform.
 
 ![Image of Idea](https://github.com/vitorCamargo/alarm-clock/blob/master/idea.png)
 
-### Materiais e Métodos
-Para projetar o circuito serão utilizados os seguintes materiais:
+### Materials and Methods
+To design the circuit will be used the following materials:
 - 1 Arduino Mega 2560
 - 1 LCD 16x2
 - 1 Buzzer Module
